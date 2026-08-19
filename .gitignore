@@ -1,0 +1,39 @@
+# Data — never commit
+data/raw/
+data/processed/
+data/interim/
+*.parquet
+
+# Models / artifacts
+models/*.pkl
+models/*.joblib
+!models/xgboost_model.joblib
+!models/isolation_forest_model.joblib
+!models/label_encoder.joblib
+!models/synthetic_generator.joblib
+!models/model_metadata.json
+!models/.gitkeep
+
+
+# Deployment model
+!models/xgboost_model.joblib
+!models/label_encoder.joblib
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Streamlit
+.streamlit/secrets.toml
