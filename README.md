@@ -196,7 +196,7 @@ python app.py
 | **Fathima** | Data preprocessing | `src/data_pipeline.py` |
 | **Niyah** | Class imbalance handling, repository setup & structure | `src/`, repo administration |
 | **Annet** | Supervised model development | `src/train_models.py` |
-| **Ann Bhadra** | Supervised model development | `src/train_models.py` |
+| **Ann ,Bhadra** | Supervised model development | `src/train_models.py` |
 | **Sangeetha** | Supervised models & evaluation | `src/train_models.py`, `results/` |
 | **Thejas** | Anomaly detection & threat scoring | `src/anomaly_scoring.py`, `src/triage.py` |
 | **Sivatha** | Dashboard & cloud deployment | `app.py` |
@@ -257,7 +257,7 @@ git push -u origin yourname-feature
 ## Notes & Coordination
 
 - **Thejas** (anomaly detection + scoring) and **Sivatha** (dashboard + deployment) have tightly coupled responsibilities — the dashboard consumes scoring output, so close coordination is needed between these two areas.
-- **Annet**, **Ann Bhadra**, and **Sangeetha** all contribute to `train_models.py` — coordinate to keep experiments/functions clearly separated and avoid overwriting each other's work.
+- **Annet**, **Ann ,Bhadra**, and **Sangeetha** all contribute to `train_models.py` — coordinate to keep experiments/functions clearly separated and avoid overwriting each other's work.
 - Existing branches with duplicate copies of shared folders (`data`, `models`, `results`, `docs`) should be cleaned up before opening a pull request:
   ```bash
   git pull origin main
